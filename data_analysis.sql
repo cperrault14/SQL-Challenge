@@ -77,3 +77,4 @@ Count(emp_no) as Employee_Number,
 last_name as Last_Name
 from employees
 group by last_name
+order by Employee_Number DESC
