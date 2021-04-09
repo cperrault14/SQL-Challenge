@@ -78,3 +78,8 @@ last_name as Last_Name
 from employees
 group by last_name
 order by Employee_Number DESC
+
+--Epilogue
+Select * from employees where emp_no = '499942'
+
+--HAHA! GOOD ONE!
